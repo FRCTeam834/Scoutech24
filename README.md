@@ -11,4 +11,4 @@ npm run dev
 npm run dev -- --open
 ```
 
-The app will begin running on (http://localhost:5173)
+The app will begin running on http://localhost:5173
