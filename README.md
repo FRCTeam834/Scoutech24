@@ -1,6 +1,6 @@
 # Scoutech24
 
-Team 834's scouting app for 2023-2024
+Team 834's scouting app for 2024-2025
 
 ## How to run
 
