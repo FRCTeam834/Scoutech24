@@ -1,13 +1,14 @@
+# Scoutech24
 
-## Developing
+Team 834's scouting app for 2023-2024
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+## How to run
 
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# start the server and open the app in a new browser tab
 npm run dev -- --open
 ```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+The app will begin running on (http://localhost:5173)
