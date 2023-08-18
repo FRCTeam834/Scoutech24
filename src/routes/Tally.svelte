@@ -1,8 +1,13 @@
 <script>
     /**
-	 * @type {String}
+	 * @type {string}
 	 */
     export let label;
+    /**
+	 * @type {string}
+	 */
+     export let name;
+
     let count = 0
 
     function increment() {
@@ -14,10 +19,10 @@
     }
 </script>
 
-<label for={label}>{label}:</label>
+<label for={name}>{label}:</label>
 <br>
 <button on:click={decrement}>-</button>
-<input bind:value = {count}
+<input {name} id = {name} bind:value = {count}
     type="number" 
     inputmode="numeric"
     pattern="[0-9]+"
