@@ -4,3 +4,5 @@
 </script>
 
 <Tally label = {"Team"}></Tally>
+
+<Tally label = {"Cowboys"}></Tally>
