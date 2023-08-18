@@ -19,8 +19,7 @@
     }
 </script>
 
-<label for={name}>{label}:</label>
-<br>
+<label for={name}>{label}:</label><br>
 <button on:click={decrement}>-</button>
 <input {name} id = {name} bind:value = {count}
     type="number" 

@@ -1,13 +1,16 @@
 <script>
-    import Tally from "./Tally.svelte";
-    import ShortText from "./ShortText.svelte";
-    import Dropdown from "./Dropdown.svelte";
-	import TeamSelection from "./TeamSelection.svelte";
+    import Tally from "../components/Tally.svelte";
+    import ShortText from "../components/ShortText.svelte";
+    import Dropdown from "../components/Dropdown.svelte";
+	import TeamSelection from "../components/TeamSelection.svelte";
+	import Toggle from "../components/Toggle.svelte";
+	import Radioboxs from "../components/Radioboxs.svelte";
 </script>
 
 
-<ShortText label = {"Name"} name = {"name"}/>
+<ShortText label = {"Name:"} name = {"name"}/>
 <TeamSelection/>
-<!-- <Dropdown label = {"Team"} selections = {{0 : "Egg", 1 : "Cheese"}} name = {"team"}/> -->
 <Tally label = {"Match Number"} name = {"match"}/>
-
+<Dropdown label = {"Food"} selections = {{0 : "Egg", 1 : "Cheese"}} name = {"food"}/>
+<Toggle label = "Do you like egg?" name = "eggPrefrence"/>
+<Radioboxs label = "What food you want?" name = "foodtwo" selections = {{0 : "Egg", 1 : "Cheese", 2 : "Popcorn"}}/>

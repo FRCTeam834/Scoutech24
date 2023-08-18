@@ -9,7 +9,6 @@
      export let name;
 </script>
 
-<label for={name}>{label}:</label>
-<br>
-<input type="text" {name} id = {name}>
-<br>
+<label for={name}>{label}</label><br>
+<input type="text" {name} id = {name}/>
+<br/>
