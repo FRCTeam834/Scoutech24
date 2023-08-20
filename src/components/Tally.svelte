@@ -20,13 +20,13 @@
 </script>
 
 <label for={name}>{label}:</label><br>
-<button on:click={decrement}>-</button>
+<button type = "button" on:click={decrement}>-</button>
 <input {name} id = {name} bind:value = {count}
     type="number" 
     inputmode="numeric"
     pattern="[0-9]+"
     />
-<button on:click={increment}>+</button>
+<button type = "button" on:click={increment}>+</button>
 <br>
 
 <style>

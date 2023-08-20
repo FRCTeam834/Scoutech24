@@ -6,9 +6,9 @@
     let itemsList = [];
     let text;
     /**
-	 * @type {Object.<string, string>}
+	 * @type {{ [x: string]: string; }}
 	 */
-     var dictionary = {};
+    var dictionary = {};
 
     import {onMount} from 'svelte';
 		onMount(() => {
@@ -19,7 +19,7 @@
          const response = await fetch('/teams.txt');
         text = await response.text();
         itemsList = text.split('\n');
-        itemsList.forEach(item => dictionary[item] = item);
+        itemsList.forEach(item => dictionary[item.replace(/(\r\n|\n|\r)/gm, "")] = item.replace(/(\r\n|\n|\r)/gm, ""));
     };
     
 </script>

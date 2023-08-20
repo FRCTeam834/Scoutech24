@@ -13,7 +13,7 @@
 </script>
 
 <label for={name}>{label}</label><br>
-<button {name} id = {name} on:click={() => value = 1 - value}>
+<button type = "button" {name} id = {name} on:click={() => value = 1 - value}>
     {display}
 </button>
 <br>

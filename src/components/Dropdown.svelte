@@ -3,15 +3,14 @@
 	 * @type {string}
 	 */
     export let label;
-
-     /**
-	 * @type {any}
-	 */
-    export let selections;
      /**
 	 * @type {string}
 	 */
     export let name;
+    /**
+	 * @type {{ [x: string]: string; }}
+	 */
+     export let selections;
 </script>
 
 
