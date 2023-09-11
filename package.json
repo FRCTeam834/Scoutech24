@@ -24,8 +24,5 @@
 		"typescript": "^5.0.0",
 		"vite": "^4.4.2"
 	},
-	"type": "module",
-	"dependencies": {
-		"@vercel/postgres": "^0.4.1"
-	}
+	"type": "module"
 }
