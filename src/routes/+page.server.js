@@ -1,8 +1,6 @@
-import { sql } from '@vercel/postgres';
+// export function load(){
 
-export function load(){
-
-}
+// }
 
 /** @type {import('./$types').Actions} */
 export const actions = {

@@ -6,9 +6,12 @@
 	import Toggle from "../components/Toggle.svelte";
 	import Radioboxs from "../components/Radioboxs.svelte";
 	import Tabel from "./Tabel.svelte";
+	import Hamburger from "../components/Hamburger.svelte";
 
     export let data;
 </script>
+
+<Hamburger/>
 
 <form method = "POST" action = "?/create">
     <ShortText label = "Name:" name = "name"/>
