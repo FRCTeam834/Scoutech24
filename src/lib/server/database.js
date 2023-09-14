@@ -1,8 +1,5 @@
+import { DATABASE_URL } from '$env/static/private';
 import postgres from 'postgres';
-/**
- * @type {string}
- */
-const DATABASE_URL = process.env.DATABASE_URL;
 
 const sql = postgres(DATABASE_URL, {
 	ssl: 'require'
@@ -14,7 +11,10 @@ export async function getPosts() {
 }
 
 
-export async function sendData() {
-	const posts = await sql`Insert into test Values(`;
+/**
+ * @param {string} values
+ */
+export async function sendData(values) {
+	const posts = await sql`Insert into test Values(${values})`;
 	return posts;
 }
