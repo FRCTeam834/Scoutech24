@@ -1,8 +1,9 @@
-// import { DATABASE_URL } from '$env/static/private';
-
 import postgres from 'postgres';
+/**
+ * @type {string}
+ */
+const DATABASE_URL = process.env.DATABASE_URL;
 
-let DATABASE_URL = process.env.DATABASE_URL;
 const sql = postgres(DATABASE_URL, {
 	ssl: 'require'
 });
