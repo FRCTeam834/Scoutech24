@@ -1,16 +1,16 @@
-// export function load(){
-
-// }
+import * as db from '$lib/server/database.js';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
     create: async ({cookies, request}) => {
-        const data = await request.formData();
-        const formMap = new Map(data.entries())
-        console.log(formMap);
-        // console.log(formMap.values());
-        // console.log(formMap.values());
+        var object = {}
+        const formData = await request.formData();
+        formData.forEach((value, key) => object[key] = value);
 
-
+        // const formMap = new Map(formData.entries());
+        console.log(object);
+        // return {
+        //     post: await db.sendData(formMap)
+        // };
     }
 };

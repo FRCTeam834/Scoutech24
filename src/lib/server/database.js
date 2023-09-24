@@ -12,9 +12,12 @@ export async function getPosts() {
 
 
 /**
- * @param {string} values
+ * @param {Map<string, FormDataEntryValue>} dataMap
  */
-export async function sendData(values) {
-	const posts = await sql`Insert into test Values(${values})`;
-	return posts;
-}
+// export async function sendData(dataMap) {
+// 	// const columns = new Array(dataMap.keys());
+// 	const posts = await sql `INSERT INTO test ${dataMap)}`;
+// 	return posts;
+
+// }
+
