@@ -6,18 +6,17 @@ const sql = postgres(DATABASE_URL, {
 });
 
 export async function getPosts() {
-	const posts = await sql`SELECT * FROM test`;
+	const posts = await sql`SELECT * FROM test`.values();
 	return posts;
 }
 
 
 /**
- * @param {Map<string, FormDataEntryValue>} dataMap
+ * @param {Object<string, string|number>} entry
  */
-// export async function sendData(dataMap) {
-// 	// const columns = new Array(dataMap.keys());
-// 	const posts = await sql `INSERT INTO test ${dataMap)}`;
-// 	return posts;
+export async function sendData(entry) {
+	const posts = await sql `INSERT INTO test ${sql(entry, Object.keys(entry))}`;
+	return posts;
 
-// }
+}
 
