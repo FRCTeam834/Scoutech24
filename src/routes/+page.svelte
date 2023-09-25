@@ -20,7 +20,7 @@
     <Dropdown label = "Food" name = "food" 
         selections = {{0 : "Egg", 
                     1 : "Cheese"}}/>
-    <Toggle label = "Do you like egg?" name = "eggPrefrence"/>
+    <Toggle label = "Do you like egg?" name = "eggprefrence"/>
     <Radioboxs label = "What food you want?" name = "foodtwo" 
         selections = {{0 : "Egg", 
                     1 : "Cheese", 

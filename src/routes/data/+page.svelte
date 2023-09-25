@@ -1,12 +1,12 @@
 <script>
-    export let data;
+    export let data;    
 </script>
 
 <h2>Testing postgres</h2>
 <ul>
-  {#each data.post as post}
+  {#each data.post as entry}
     <li>
-        {post.content}
+        {entry}
     </li>
   {/each}
 </ul>

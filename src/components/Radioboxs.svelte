@@ -15,12 +15,16 @@
 	 * @type {string}
 	 */
     export let preset;
+    /**
+	 * @type {string}
+	 */
+    export let type = "I";
 </script>
 
 <label for={name}>{label}</label><br>
 
 {#each Object.entries(selections) as [value, option]}
-    <input type="radio" {name} id={name} {value} checked = {preset == value}/>
+    <input type="radio" name = {name + type} id={name} {value} checked = {preset == value}/>
     <label for={value}>{option}</label>
     <br>
 {/each}

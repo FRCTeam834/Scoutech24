@@ -6,15 +6,17 @@ const sql = postgres(DATABASE_URL, {
 });
 
 export async function getPosts() {
-	const posts = await sql`SELECT * FROM test`;
+	const posts = await sql`SELECT * FROM test`.values();
 	return posts;
 }
 
 
 /**
- * @param {string} values
+ * @param {Object<string, string|number>} entry
  */
-export async function sendData(values) {
-	const posts = await sql`Insert into test Values(${values})`;
+export async function sendData(entry) {
+	const posts = await sql `INSERT INTO test ${sql(entry, Object.keys(entry))}`;
 	return posts;
+
 }
+

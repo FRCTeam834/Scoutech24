@@ -1,16 +1,23 @@
-// export function load(){
-
-// }
+import * as db from '$lib/server/database.js';
 
 /** @type {import('./$types').Actions} */
 export const actions = {
     create: async ({cookies, request}) => {
-        const data = await request.formData();
-        const formMap = new Map(data.entries())
-        console.log(formMap);
-        // console.log(formMap.values());
-        // console.log(formMap.values());
+        /**
+         * @type {Object<string, any>}
+         */
+        const entry = {}
+        const formData = await request.formData();
+        formData.forEach((value, key) => {
+            const isString = key.slice(-1) === "S"
+            
+            value = value.toString()
+            const val = isString ? value : parseInt(value) 
+            entry[key.slice(0, -1)] = val
+        });
 
-
+        return {
+            post: await db.sendData(entry)
+        };
     }
 };
