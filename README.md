@@ -11,6 +11,6 @@ npm run dev
 ## Database Setup
 Create .env.local with
 ```bash
-DATABASE_URL = {insert_psql_link}
+DATABASE_URL = "insert_psql_link"
 ```
 The app will begin running on http://localhost:5173
