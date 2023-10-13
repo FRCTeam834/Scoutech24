@@ -1,4 +1,6 @@
 <script>
+    import '../app.css'
+
     import Tally from "../components/Tally.svelte";
     import ShortText from "../components/ShortText.svelte";
     import Dropdown from "../components/Dropdown.svelte";
@@ -13,6 +15,7 @@
 
 <Hamburger/>
 
+<div id = "page">
 <form method = "POST" action = "?/create">
     <ShortText label = "Name:" name = "name"/>
     <TeamSelection/>
@@ -29,5 +32,11 @@
 
     <button type="submit">Sumbit</button>
 </form>
-
-<Tabel match = {8} team = {834} />
+</div>
+<ul>
+    {#each data.post as entry}
+        <li>
+        <Tabel match = {entry[3]} team = {entry[2]} />
+        </li>
+    {/each}
+</ul>

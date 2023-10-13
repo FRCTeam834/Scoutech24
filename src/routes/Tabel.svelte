@@ -11,7 +11,7 @@
 </script>
 
 <div>
-    <span>{match}</span>
-    <span>{team}</span>
+    <span>Match : {match}</span>
+    <span>Team: {team}</span>
 </div>
 

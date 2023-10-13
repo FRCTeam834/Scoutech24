@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap');
+
+:root{
+    /* --p1 :  */
+    --background : #151b23;
+    --font-color : #66fcf1;
+    --font : 'Libre Franklin';
+}
+
+body{
+    background-color: var(--background);
+    color: var(--font-color);
+    font-family: var(--font);
+    font-size: 15px;
+}
+
+#page{
+    background-color: #1F2833;
+    border: #1F2833 2px solid;
+    border-radius: 13px;
+    margin: 1dvw;
+    padding: 2dvw;
+    filter: drop-shadow(0 0 0.5rem #12171e);
+}
