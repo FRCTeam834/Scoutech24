@@ -13,6 +13,8 @@
      export let type = "S";
 </script>
 
-<label for={name}>{label}</label><br>
-<input type="text" name = {name + type} id = {name}/>
+<label for={name}>{label}</label>
+<input type="text" name = {name + type} id = {name}
+        class="input rounded-[1em] bg-[#fefefe] border-transparent"
+/>
 <br/>
