@@ -19,7 +19,11 @@
          const response = await fetch('/teams.txt');
         text = await response.text();
         itemsList = text.split('\n');
-        itemsList.forEach(item => dictionary[item.replace(/(\r\n|\n|\r)/gm, "")] = item.replace(/(\r\n|\n|\r)/gm, ""));
+        
+        itemsList.forEach(item => {
+            let turncItem = item.replace(/(\r\n|\n|\r)/gm, "");
+            dictionary[turncItem.split(" ")[0]] = turncItem.replace("	", " | ");
+            })
     };
     
 </script>

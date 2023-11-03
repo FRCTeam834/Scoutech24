@@ -31,14 +31,13 @@
         type="number" 
         inputmode="numeric"
         pattern="[0-9]+"
-        class = "input col-span-2 rounded-none bg-[#fefefe] border-transparent"
+        class = "input tally col-span-2 rounded-none bg-[#fefefe] border-transparent text-center"
         />
     
-    <button type="button" class="bg-primary-500 rounded-none rounded-r-[1.3em] btn btn-lg variant-filled col-span-1" on:click={increment} >+</button>
+    <button type="button" class="bg-primary-500 h-35 rounded-none rounded-r-[1.3em] btn btn-lg variant-filled col-span-1" on:click={increment} >+</button>
 </div>
 
 <!-- <button type = "button" on:click={increment}>+</button> -->
-<br>
 
 <style>
     input::-webkit-inner-spin-button {

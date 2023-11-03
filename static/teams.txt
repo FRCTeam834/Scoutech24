@@ -1,3 +1,40 @@
-834
-0834
-00834
+103	Cybersonics
+272	Cyber Crusaders
+316	LUNATECS
+321	RoboLancers
+341	Miss Daisy
+365	MOE/Miracle Workerz
+427	LANCE-A-LOT
+433	Firebirds
+484	Roboforce
+533	The PSIcotics
+708	Hatters Robotics
+834	The Spartechs
+1218	SCH Robotics
+1391	Metal Moose
+1403	Cougar Robotics
+1640	Sab-BOT-age
+1676	The Pascack Pi-oneers
+1712	Dawgma
+2539	Krypton Cougars
+2607	The Fighting RoboVikings
+3314	Mechanical Mustangs
+4027	Centre Punch
+4467	Titanium Titans
+4575	Gemini
+5181	Explorer Robotics
+5401	Fightin Robotic Owls
+5407	Wolfpack Robotics
+5740	The Trojanators
+6808	William Tennent Robotics
+7414	RetroRobotics
+8085	Mojo
+8714	Robo Griffins
+9094	The Earthquakers
+9991	Freshman Robotic Owls
+293	SPIKE
+555	Montclair Robotics
+1111	Powerhawks
+8117	Easton RoboRovers
+9015	Questionable Engineering
+423	Simple Machines

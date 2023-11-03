@@ -1,6 +1,4 @@
 <script>
-    import '../app.css'
-
     import Tally from "../components/Tally.svelte";
     import ShortText from "../components/ShortText.svelte";
     import Dropdown from "../components/Dropdown.svelte";
@@ -27,10 +25,13 @@
     <Radioboxs label = "What food you want?" name = "foodtwo" 
         selections = {{0 : "Egg", 
                     1 : "Cheese", 
-                    2 : "Popcorn"}}
+                    2 : "Popcorn",
+                    3 : "Joe",
+                    4 : "crow",
+                    }}
         preset = "0"/>
 
-    <button type="submit">Sumbit</button>
+    <button class = "variant-filled-secondary h-35 btn btn-lg w-full" type="submit">Submit</button>
 </form>
 </div>
 <ul>
