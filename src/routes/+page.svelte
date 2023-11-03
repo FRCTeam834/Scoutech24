@@ -29,7 +29,7 @@
                     3 : "Joe",
                     4 : "crow",
                     }}
-        preset = "0"/>
+        selection = "2"/>
 
     <button class = "variant-filled-secondary h-35 btn btn-lg w-full" type="submit">Submit</button>
 </form>

@@ -14,7 +14,7 @@
     /**
 	 * @type {string}
 	 */
-    export let preset;
+    export let selection;
     /**
 	 * @type {string}
 	 */
@@ -24,16 +24,24 @@
 </script>
 
 <label for={name}>{label}</label>
-<select class={"select border-none overflow-y-hidden w-full "} size={entrieLength + 1} style="background:none;" name = {name + type} id={name} value = {preset}>
+<!-- <select class={"select border-none overflow-y-hidden w-full "} size={entrieLength + 1} style="background:none; -webkit-appearance: none;" name = {name + type} id={name} value = {preset}> -->
 {#each Object.entries(selections) as [value, option]}
-    <option {value}
-    class="rounded-[.1em] text-lg text-black variant-filled-primary w-[110%]"
-    >{option}
-    </option>
-    <!-- <div class="flex">
-        <input type="radio" name = {name + type} id={name} {value} checked = {preset == value} class = "hidden"/>
-        <label for={value}>{option}</label>
-    </div> -->
+    <!-- <input 
+    name = {name + type} 
+    id={name} {value} 
+    bind:group={selection}
+    type = "radio"
+    class = "" />
+    <button type = "button" 
+    class = "mb-1 variant-ringed-tertiary bg-[#fefefe] btn w-full justify-start"
+    on:click={selection = value}>
+    {option}
+    </button> -->
+    <label for={value}>
+        <input type="radio" name = {name + type} id={name} {value} bind:group={selection}>
+        {option}
+    </label>
+
 {/each}
-</select>
+<!-- </select> -->
 <br>
