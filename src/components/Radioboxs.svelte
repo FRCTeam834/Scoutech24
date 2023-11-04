@@ -1,4 +1,5 @@
 <script>
+    import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
     /**
 	 * @type {string}
 	 */
@@ -24,9 +25,26 @@
 </script>
 
 <label for={name}>{label}</label>
-<!-- <select class={"select border-none overflow-y-hidden w-full "} size={entrieLength + 1} style="background:none; -webkit-appearance: none;" name = {name + type} id={name} value = {preset}> -->
+
+<RadioGroup 
+active="variant-filled-primary" 
+hover="hover:variant-soft-primary" 
+rounded="rounded-container-token" 
+display="flex-col"
+background = "bg-tertiary-50-token"
+padding = "py-2"
+
+>
 {#each Object.entries(selections) as [value, option]}
-    <!-- <input 
+    <RadioItem 
+    name = {name + type} value = {value} bind:group = {selection}>
+        {option}
+    </RadioItem>
+{/each}
+</RadioGroup>
+
+
+ <!-- <input 
     name = {name + type} 
     id={name} {value} 
     bind:group={selection}
@@ -37,11 +55,7 @@
     on:click={selection = value}>
     {option}
     </button> -->
-    <label for={value}>
+    <!-- <label for={value}>
         <input type="radio" name = {name + type} id={name} {value} bind:group={selection}>
         {option}
-    </label>
-
-{/each}
-<!-- </select> -->
-<br>
+    </label> -->

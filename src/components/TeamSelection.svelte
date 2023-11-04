@@ -28,4 +28,4 @@
     
 </script>
 
-<Dropdown label = {"Team"} selections = {dictionary} name = {"team"}/>
+<Dropdown label = {"Team"} selections = {dictionary} name = {"team_number"}/>
