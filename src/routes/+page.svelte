@@ -7,6 +7,7 @@
 	import Radioboxs from "../components/Radioboxs.svelte";
 	import Tabel from "./Tabel.svelte";
 	import Hamburger from "../components/Hamburger.svelte";
+	import Header from "../components/Header.svelte";
 
     export let data;
 </script>
@@ -18,6 +19,7 @@
     <ShortText label = "Name:" name = "name"/> <br>
     <TeamSelection/> <br> <br>
     <Tally label = "Match Number" name = "match_number"/> <br>
+    <Header title = "Auton Phase" color = "#fefefe"/> <br>
     <Tally label = "High" name = "auton_high"/> <br>
     <Tally label = "Mid" name = "auton_mid"/> <br>
     <Tally label = "Low" name = "auton_low"/> <br>
@@ -33,6 +35,7 @@
                 }}
     selection = "3"/> <br>
 
+    <Header title = "Teleop Phase" color = "#fefefe"/> <br>
     <Tally label = "High" name = "teleop_high"/> <br>
     <Tally label = "Mid" name = "teleop_mid"/> <br>
     <Tally label = "Low" name = "teleop_low"/> <br>
@@ -46,6 +49,7 @@
                     3 : "Both"
                     }}/>
     <Toggle label = "Were they defended?" name = "defended"/> <br> <br>
+    <Header title = "Endgame" color = "#fefefe"/> <br>
     <Radioboxs label = "Final Balance Positon?" name = "final_balance" 
     selections = {{
                 0 : "Docked (Not Engaged)", 
