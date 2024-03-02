@@ -8,6 +8,7 @@
 	import Tabel from "./Tabel.svelte";
 	import Hamburger from "../components/Hamburger.svelte";
 	import Header from "../components/Header.svelte";
+	import AutonLocation from "../components/AutonLocation.svelte";
 
     export let data;
 </script>
@@ -19,49 +20,19 @@
     <ShortText label = "Name:" name = "name"/> <br>
     <TeamSelection/> <br> <br>
     <Tally label = "Match Number" name = "match_number"/> <br>
-    <Header title = "Auton Phase" color = "#fefefe"/> <br>
-    <Tally label = "High" name = "auton_high"/> <br>
-    <Tally label = "Mid" name = "auton_mid"/> <br>
-    <Tally label = "Low" name = "auton_low"/> <br>
-    <Tally label = "Drops" name = "auton_drops"/><br>
+    <Header title = "Auton Phase" color = "#f0d1d6"/> <br>
+    <Tally label = "Speaker Scores" name = "auton_speaker"/> <br>
+    <Tally label = "Amp Scores" name = "auton_amp"/> <br>
     <Toggle label = "Grabbed Piece at End" name = "grab_piece"/> <br> <br>
-    <Toggle label = "Left Community" name = "left_community"/> <br> <br>
-    <Radioboxs label = "Did they balance?" name = "auton_balance" 
-    selections = {{
-                0 : "Docked (Not Engaged)", 
-                1 : "Engaged (Balanced)", 
-                2 : " Attempted But Failed",
-                3 : "Did Not Attempt To Balance",
-                }}
-    selection = "3"/> <br>
 
-    <Header title = "Teleop Phase" color = "#fefefe"/> <br>
-    <Tally label = "High" name = "teleop_high"/> <br>
-    <Tally label = "Mid" name = "teleop_mid"/> <br>
-    <Tally label = "Low" name = "teleop_low"/> <br>
-    <Tally label = "Drops" name = "teleop_drops"/> <br>
+    <Header title = "Teleop Phase" color = "#b8d2ff"/> <br>
+    <Tally label = "Speaker Scores" name = "teleop_speaker"/> <br>
+    <Tally label = "Amp Scores" name = "teleop_amp"/> <br>
+    <Toggle label = "Were they Defended?" name = "defended"/> <br> <br>
 
-    <Dropdown label = "Game Piece Used" name = "piece" 
-        selections = {{
-                    0 : "None", 
-                    1 : "Cube",
-                    2 : "Cone",
-                    3 : "Both"
-                    }}/>
-    <Toggle label = "Were they defended?" name = "defended"/> <br> <br>
-    <Header title = "Endgame" color = "#fefefe"/> <br>
-    <Radioboxs label = "Final Balance Positon?" name = "final_balance" 
-    selections = {{
-                0 : "Docked (Not Engaged)", 
-                1 : "Engaged (Balanced)", 
-                2 : "Attempted But Failed",
-                3 : "Parked (In Community Area)", 
-                4 : "Did Not Attempt To Balance"
-                }}
-    selection = "4"/> <br> 
-    <Toggle label = "Made Room on Charging Station?" name = "made_room"/> <br> <br>
-    <Toggle label = "Did they play defense" name = "attacked"/> <br> <br>
-    <ShortText label = "Were They Good at Defense" name = "good_defense"/> <br>
+    <Header title = "Misc. Info" color = "#defacf"/> <br>
+    <Toggle label = "Did they play Defense?" name = "attack"/> <br> <br>
+    <ShortText label = "Were They Good at Defense?" name = "good_defense"/> <br>
     <ShortText label = "Other" name = "other"/> <br>
     <Toggle label = "Did they break?" name = "broken"/> <br> <br>
 

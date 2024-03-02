@@ -19,6 +19,6 @@
 <label for={name}>{label}</label>
 <input {value} name = {name + type} id = {name} style="visibility: hidden; position: absolute;">
 <button type = "button"  on:click={() => value = 1 - value} 
-    class = {"variant-filled-primary h-35 btn btn-lg w-full " + "bg-[#43bf83]".repeat(value)}>
+    class = {"h-35 btn btn-lg w-full " + "bg-[#43bf83] ".repeat(value) +"bg-[#e63c5e]".repeat(1-value)}>
     {display}
 </button>
