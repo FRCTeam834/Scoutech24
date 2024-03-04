@@ -21,6 +21,13 @@
     <TeamSelection/> <br> <br>
     <Tally label = "Match Number" name = "match_number"/> <br>
     <Header title = "Auton Phase" color = "#f0d1d6"/> <br>
+    <Radioboxs label = "Starting Position" name = "auton_position" 
+    selections = {{
+                0 : "Top (Amp Side)", 
+                1 : "Middle", 
+                2 : "Bottom (Source Side)",
+                }}
+    selection = "0"/> <br> 
     <Tally label = "Speaker Scores" name = "auton_speaker"/> <br>
     <Tally label = "Amp Scores" name = "auton_amp"/> <br>
     <Toggle label = "Grabbed Piece at End" name = "grab_piece"/> <br> <br>

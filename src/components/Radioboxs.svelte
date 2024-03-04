@@ -28,7 +28,6 @@
 
 <RadioGroup 
 active="variant-filled-primary" 
-hover="hover:variant-soft-primary" 
 rounded="rounded-container-token" 
 display="flex-col"
 background = "bg-tertiary-50-token"
