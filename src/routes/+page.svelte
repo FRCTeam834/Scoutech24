@@ -10,6 +10,8 @@
 	import Header from "../components/Header.svelte";
 	import AutonLocation from "../components/AutonLocation.svelte";
 
+    // import { offlineData } from "../store";
+
     export let data;
 </script>
 
@@ -30,7 +32,7 @@
     selection = "0"/> <br> 
     <Tally label = "Speaker Scores" name = "auton_speaker"/> <br>
     <Tally label = "Amp Scores" name = "auton_amp"/> <br>
-    <Toggle label = "Grabbed Piece at End" name = "grab_piece"/> <br> <br>
+    <Toggle label = "Holding Note at End?" name = "grab_piece"/> <br> <br>
 
     <Header title = "Teleop Phase" color = "#b8d2ff"/> <br>
     <Tally label = "Speaker Scores" name = "teleop_speaker"/> <br>

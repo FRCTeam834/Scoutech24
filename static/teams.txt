@@ -1,4 +1,8 @@
+25	Raider Robotix
 103	Cybersonics
+293	SPIKE
+555	Montclair Robotics
+834	SparTechs
 1626	Falcon Robotics
 1807	Redbird Robotics
 1923	The MidKnight Inventors
@@ -6,20 +10,16 @@
 2180	Zero Gravity
 2191	Flux Core
 2495	Hive Mind
-25	Raider Robotix
 2554	The Warhawks
 2577	Pingry Robotics
-293	SPIKE
 3340	Union City MagneGeeks
 3515	Pneubotic Mustangs
 4573	Rambotics
 4652	Ironmen 2
 4653	Ironmen Robotics
-555	Montclair Robotics
 5624	TIGER TECH Robotics
 5666	Purple Lightning
 6897	Astraea Robotics
-834	SparTechs
 8588	Tech Devils
 8628	Newark School of Global Studies
 8707	The Newark Circuit Breakers

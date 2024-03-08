@@ -22,6 +22,12 @@ export const actions = {
             entry[key.slice(0, -1)] = val
         });
 
+        // return {
+		// 	destroy() {
+		// 		// the node has been removed from the DOM
+		// 	}
+		// };
+
         return {
             post: await db.sendData(entry)
         };
