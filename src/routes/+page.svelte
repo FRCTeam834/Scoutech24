@@ -25,9 +25,9 @@
     <Header title = "Auton Phase" color = "#f0d1d6"/> <br>
     <Radioboxs label = "Starting Position" name = "auton_position" 
     selections = {{
-                0 : "Top (Amp Side)", 
+                0 : "Amp Side", 
                 1 : "Middle", 
-                2 : "Bottom (Source Side)",
+                2 : "Source Side",
                 }}
     selection = "0"/> <br> 
     <Tally label = "Speaker Scores" name = "auton_speaker"/> <br>
