@@ -1,27 +1,32 @@
-25	Raider Robotix
-103	Cybersonics
-293	SPIKE
+11	MORT
+41	RoboWarriors
+56	R.O.B.B.E.
+75	RoboRaiders
+102	The Gearheads
+193	MORT Beta
+219	Team Impact
+303	The T.E.S.T. Team
+428	BoroBlasters
 555	Montclair Robotics
+714	Panthera
 834	SparTechs
+1279	Cold Fusion
 1626	Falcon Robotics
-1807	Redbird Robotics
-1923	The MidKnight Inventors
-2016	Mighty Monkey Wrenches
-2180	Zero Gravity
-2191	Flux Core
-2495	Hive Mind
-2554	The Warhawks
-2577	Pingry Robotics
-3340	Union City MagneGeeks
-3515	Pneubotic Mustangs
+1672	Robo T-Birds
+3142	Aperture
+4285	Camo-Bots
 4573	Rambotics
 4652	Ironmen 2
 4653	Ironmen Robotics
-5624	TIGER TECH Robotics
-5666	Purple Lightning
-6897	Astraea Robotics
-8588	Tech Devils
+5732	ROBOTIGERS
+5992	Pirates
+6016	Tiger Robotics
+6945	Children of the Corn
+7045	MCCrusaders
+8117	The Easton RoboRovers
 8628	Newark School of Global Studies
+8630	CAP ROBOTICS
+8706	Malcolm X Shabazz Bulldogs
 8707	The Newark Circuit Breakers
-9015	Questionable Engineering
-9100	Robo Roses
+8771	PioTech
+9439	Knights of Polaris

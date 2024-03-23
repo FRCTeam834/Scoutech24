@@ -48,6 +48,10 @@
 
     <button class = "variant-filled-secondary h-35 btn btn-lg w-full" type="submit">Submit</button> <br>
 </form>
+    <br>
+    <Header title = "Team Blue Aliance" color = "#b3d5f5"/> <br>
+    <iframe src="https://www.thebluealliance.com/event/2024njwas" width="100%" height="700"></iframe>
+
 </div>
 
 
