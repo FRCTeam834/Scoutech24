@@ -17,7 +17,7 @@
 
 <!-- <Hamburger/> -->
 
-<div id = "page">
+<div class = "page">
 <form method = "POST" action = "?/create">
     <ShortText label = "Name:" name = "name"/> <br>
     <TeamSelection/> <br> <br>

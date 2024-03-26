@@ -20,3 +20,11 @@ export async function sendData(entry) {
 
 }
 
+/**
+ * @param {Object<string, string|number>} entry
+ */
+export async function sendPitData(entry) {
+	const posts = await sql `INSERT INTO lehigh_pit_24 ${sql(entry, Object.keys(entry))}`;
+	return posts;
+
+}
