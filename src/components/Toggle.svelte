@@ -1,3 +1,12 @@
+<!-- 
+    Input that acts as a yes or no button 
+
+    0 : No
+    1 : Yes
+    
+    @input_type number
+-->
+
 <script>
     /**
 	 * @type {string}

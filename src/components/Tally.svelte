@@ -1,3 +1,9 @@
+<!-- 
+    Input with one line text box that only takes numbers. 
+    Has + and - button for incrementing value
+    @input_type number
+-->
+
 <script>
     /**
 	 * @type {string}

@@ -1,3 +1,8 @@
+<!-- 
+    Input that generates a drop down from team list
+    @input_type number
+-->
+
 <script>
     import Dropdown from "./Dropdown.svelte";
     /**

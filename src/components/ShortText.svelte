@@ -1,3 +1,8 @@
+<!-- 
+    Input with a one line text box
+    @input_type string
+-->
+
 <script>
     /**
 	 * @type {String}

@@ -1,3 +1,7 @@
+<!-- 
+    Header used to seperate phases
+-->
+
 <script>
     /**
 	 * @type {string}

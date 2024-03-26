@@ -1,3 +1,8 @@
+<!-- 
+    Input with multiple options mimicking a classic radiobox selection
+    @input_type number
+-->
+
 <script>
     import { RadioGroup, RadioItem } from '@skeletonlabs/skeleton';
     /**
