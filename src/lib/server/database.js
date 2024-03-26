@@ -10,12 +10,22 @@ export async function getPosts() {
 	return posts;
 }
 
+export async function getPitPosts() {
+	const posts = await sql`SELECT * FROM lehigh_pit_24`.values();
+	return posts;
+}
+
+export async function getPitScoutedTeams() {
+	const posts = await sql`SELECT team_number FROM lehigh_pit_24`.values();
+	return posts;
+}
 
 /**
  * @param {Object<string, string|number>} entry
  */
 export async function sendData(entry) {
 	const posts = await sql `INSERT INTO warren_24 ${sql(entry, Object.keys(entry))}`;
+	console.log(entry);
 	return posts;
 
 }
