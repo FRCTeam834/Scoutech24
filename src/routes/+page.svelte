@@ -53,7 +53,7 @@
 </form>
     <br>
     <Header title = "Team Blue Aliance" color = "#b3d5f5"/> <br>
-    <iframe src="https://www.thebluealliance.com/event/2024njwas" width="100%" height="700"></iframe>
+    <iframe src="https://www.thebluealliance.com/event/2024mrcmp" width="100%" height="700"></iframe>
 
 </div>
 
