@@ -20,7 +20,7 @@
 <div class = "page">
 <form method = "POST" action = "?/create">
     
-    <AutonPathList/>
+    <!-- <AutonPathList/> -->
 
     <ShortText label = "Name:" name = "name"/> <br>
     <TeamSelection/> <br> <br>
