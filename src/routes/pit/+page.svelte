@@ -2,7 +2,7 @@
 	import Radioboxs from '../../components/Radioboxs.svelte';
 	import ShortText from '../../components/ShortText.svelte';
 	import Tally from '../../components/Tally.svelte';
-	import TeamSelection from '../../components/TeamSelection.svelte';
+	import TeamSelection from '../../components_special/TeamSelection.svelte';
 	import Toggle from '../../components/Toggle.svelte';
 
     /** @type {import('./$types').PageData} */

@@ -4,7 +4,7 @@
 -->
 
 <script>
-    import Dropdown from "./Dropdown.svelte";
+    import Dropdown from "../components/Dropdown.svelte";
     /**
 	 * @type {string[]}
 	 */

@@ -2,13 +2,13 @@
     import Tally from "../components/Tally.svelte";
     import ShortText from "../components/ShortText.svelte";
     import Dropdown from "../components/Dropdown.svelte";
-	import TeamSelection from "../components/TeamSelection.svelte";
+	import TeamSelection from "../components_special/TeamSelection.svelte";
 	import Toggle from "../components/Toggle.svelte";
 	import Radioboxs from "../components/Radioboxs.svelte";
 	import Tabel from "./Tabel.svelte";
 	import Hamburger from "../components/Hamburger.svelte";
 	import Header from "../components/Header.svelte";
-	import AutonLocation from "../components/AutonLocation.svelte";
+	import AutonPathList from "../components_special/AutonPathList.svelte";
 
     // import { offlineData } from "../store";
 
@@ -19,6 +19,9 @@
 
 <div class = "page">
 <form method = "POST" action = "?/create">
+    
+    <AutonPathList/>
+
     <ShortText label = "Name:" name = "name"/> <br>
     <TeamSelection/> <br> <br>
     <Tally label = "Match Number" name = "match_number"/> <br>

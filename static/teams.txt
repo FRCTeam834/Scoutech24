@@ -1,32 +1,60 @@
 11	MORT
-41	RoboWarriors
 56	R.O.B.B.E.
 75	RoboRaiders
 102	The Gearheads
-193	MORT Beta
+103	Cybersonics
 219	Team Impact
-303	The T.E.S.T. Team
-428	BoroBlasters
+222	Tigertrons
+223	Xtreme Heat
+272	Cyber Crusaders
+293	SPIKE
+316	LUNATECS
+321	RoboLancers
+341	Miss Daisy
+365	Miracle Workerz
+427	LANCE-A-LOT
+484	Roboforce
 555	Montclair Robotics
 714	Panthera
 834	SparTechs
+1089	Team Mercury
+1168	Malvern Robotics
+1218	SCH Robotics
+1257	Parallel Universe
 1279	Cold Fusion
-1626	Falcon Robotics
-1672	Robo T-Birds
+1391	The Metal Moose
+1403	Team 1403 Cougar Robotics
+1640	Sab-BOT-age
+1676	The Pascack PI-oneers
+1807	Redbird Robotics
+1811	FRESH
+1923	The MidKnight Inventors
+2191	Flux Core
+2495	Hive Mind
+2539	Krypton Cougars
+2590	Nemesis
+2607	The Fighting RoboVikings
+2720	Red Watch Robotics
+2722	Charge Robotics
 3142	Aperture
+3314	Mechanical Mustangs
+3637	The Daleks
 4285	Camo-Bots
+4342	Demon Robotics
+4361	Roxbotix
 4573	Rambotics
-4652	Ironmen 2
-4653	Ironmen Robotics
-5732	ROBOTIGERS
+5181	Explorer Robotics
+5401	Fightin' Robotic Owls
+5438	Technological Terrors
+5684	Iron Mechs
+5895	Peddie Robotics
 5992	Pirates
-6016	Tiger Robotics
-6945	Children of the Corn
+6226	Blue Devils
+6921	Technados
 7045	MCCrusaders
-8117	The Easton RoboRovers
-8628	Newark School of Global Studies
-8630	CAP ROBOTICS
-8706	Malcolm X Shabazz Bulldogs
-8707	The Newark Circuit Breakers
-8771	PioTech
-9439	Knights of Polaris
+7110	Heights Bytes
+7414	RetroRobotics
+8513	Sisters 1st
+9015	Questionable Engineering
+9027	PATH to Domination
+9094	The Earthquakers

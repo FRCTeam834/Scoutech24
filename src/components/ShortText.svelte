@@ -15,11 +15,15 @@
     /**
 	 * @type {string}
 	 */
+     export let text = "";
+    /**
+	 * @type {string}
+	 */
      export let type = "S";
 </script>
 
 <label for={name}>{label}</label>
-<input type="text" name = {name + type} id = {name}
-        class="input rounded-[1em] bg-[#fefefe] border-transparent"
+<input type="text" name = {name + type} id = {name} bind:value={text}
+        class="input rounded-[1em] bg-[#fefefe] border-transparent" 
 />
 <br/>
