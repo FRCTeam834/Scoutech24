@@ -6,7 +6,7 @@ const sql = postgres(DATABASE_URL, {
 });
 
 export async function getPosts() {
-	const posts = await sql`SELECT * FROM leghigh_24`.values();
+	const posts = await sql`SELECT * FROM offseason1_24`.values();
 	return posts;
 }
 
@@ -24,7 +24,7 @@ export async function getPitScoutedTeams() {
  * @param {Object<string, string|number>} entry
  */
 export async function sendData(entry) {
-	const posts = await sql `INSERT INTO leghigh_24 ${sql(entry, Object.keys(entry))}`;
+	const posts = await sql `INSERT INTO offseason1_24 ${sql(entry, Object.keys(entry))}`;
 	console.log(entry);
 	return posts;
 
@@ -34,7 +34,7 @@ export async function sendData(entry) {
  * @param {Object<string, string|number>} entry
  */
 export async function sendPitData(entry) {
-	const posts = await sql `INSERT INTO lehigh_pit_24 ${sql(entry, Object.keys(entry))}`;
+	const posts = await sql `INSERT INTO offseason1_24 ${sql(entry, Object.keys(entry))}`;
 	return posts;
 
 }
