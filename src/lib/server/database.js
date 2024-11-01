@@ -11,12 +11,12 @@ export async function getPosts() {
 }
 
 export async function getPitPosts() {
-	const posts = await sql`SELECT * FROM lehigh_pit_24`.values();
+	const posts = await sql`SELECT * FROM offseason_pit_24`.values();
 	return posts;
 }
 
 export async function getPitScoutedTeams() {
-	const posts = await sql`SELECT team_number FROM lehigh_pit_24`.values();
+	const posts = await sql`SELECT team_number FROM offseason_pit_24`.values();
 	return posts;
 }
 
