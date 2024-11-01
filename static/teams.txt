@@ -1,60 +1,34 @@
-11	MORT
-56	R.O.B.B.E.
-75	RoboRaiders
-102	The Gearheads
-103	Cybersonics
-219	Team Impact
-222	Tigertrons
-223	Xtreme Heat
-272	Cyber Crusaders
-293	SPIKE
-316	LUNATECS
-321	RoboLancers
-341	Miss Daisy
-365	Miracle Workerz
-427	LANCE-A-LOT
-484	Roboforce
-555	Montclair Robotics
-714	Panthera
-834	SparTechs
-1089	Team Mercury
-1168	Malvern Robotics
-1218	SCH Robotics
-1257	Parallel Universe
-1279	Cold Fusion
-1391	The Metal Moose
-1403	Team 1403 Cougar Robotics
-1640	Sab-BOT-age
-1676	The Pascack PI-oneers
-1807	Redbird Robotics
-1811	FRESH
-1923	The MidKnight Inventors
-2191	Flux Core
-2495	Hive Mind
-2539	Krypton Cougars
-2590	Nemesis
-2607	The Fighting RoboVikings
-2720	Red Watch Robotics
-2722	Charge Robotics
-3142	Aperture
-3314	Mechanical Mustangs
-3637	The Daleks
-4285	Camo-Bots
-4342	Demon Robotics
-4361	Roxbotix
-4573	Rambotics
-5181	Explorer Robotics
-5401	Fightin' Robotic Owls
-5438	Technological Terrors
-5684	Iron Mechs
-5895	Peddie Robotics
-5992	Pirates
-6226	Blue Devils
-6921	Technados
-7045	MCCrusaders
-7110	Heights Bytes
-7414	RetroRobotics
-8513	Sisters 1st
-9015	Questionable Engineering
-9027	PATH to Domination
-9094	The Earthquakers
+103 Cybersonics
+272 cyber Crusaders
+293 SPIKE
+316 LUNATECS
+321 RoboLancers
+341 Miss Daisy
+365 MOE-Miracle Workerz
+423 Simple Machines
+427 LANCE-A-LOT
+433 Firebirds
+484 Roboforce
+533 The PSIcotics
+708 Hatters Robotics
+834 SparTechs
+1218    SCH Robotics
+1391    The Metal Moose
+1403    Cougar Robotics
+1640    Sab-BOT-age
+1712    Dawgma
+2199    Robo-Lions
+2539    Krypton Cougars
+2590    Nemesis
+2607    The Fighting RoboVikings
+3314    Mechanical Mustangs
+4027    Centre Punch
+4373    RooBotics
+4467    Titanium Titans
+4575    GEMINI
+5181    Explorer Robotics
+5401    Fightin Robotic Owls
+5666    Purple Lightning
+6808    William Tennent Robotics
+9015    Questionable Engineering
+9072    Tigerbots
